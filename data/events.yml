@@ -1,0 +1,70 @@
+---
+- :event:
+    :name: Menteludic Villalba - Marzo 2020
+    :start_date: 2020-03-13 18:00
+    :end_date: 2020-03-15 22:00
+    :boardId: CXC2KNYl
+    :labelId: 5e1ef752a3d77f7ef395701a
+    :mapUrl: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.8832673569714!2d-4.009489384380205!3d40.63245625041449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4174147b8d72cd%3A0x2c0bc70ee0dc7858!2sCarpa%20de%20la%20Malvaloca!5e0!3m2!1ses!2ses!4v1581704859423!5m2!1ses!2ses
+    :desc: "<h3>Juegos de Mesa, Rol, Cómic</h3><p>Ilustradores - Actividades para
+      niños - Juegos Gigantes - Talleres - Torneos - Sorteos - Cosplayers... <b>¡Y
+      MUCHO MAS!</b></p>"
+    :mapDesc:
+      :title: Carpa de la Malvaloca
+      :description: Calle Batalla de Bailén
+      :extra: 28400 Collado Villalba, Madrid
+    :datesDesc:
+      :title: 13, 14 y 15 de Marzo de 2020
+      :items:
+      - Viernes 13 de 18:00 a 22:00
+      - Sábado 14 de 11:00 a 14:30 y de 16:00 a 22:00
+      - Domingo 15 de 11:00 a 14:30 y de 16:00 a 20:00
+    :slug: menteludic-villalba-marzo-2020
+  :lists:
+    5e46ff0647b8ec7ad37837d7:
+      :id: 5e46ff0647b8ec7ad37837d7
+      :name: Juegos Cedidos Por Editoriales
+      :slug: juegos-cedidos-por-editoriales
+      :numcards: 2
+    5e43bfc9eaeb6573a498b2b1:
+      :id: 5e43bfc9eaeb6573a498b2b1
+      :name: Partidas de Rol
+      :slug: partidas-de-rol
+      :numcards: 2
+  :cards:
+    5e492fe17395798c871770fb:
+      :id: 5e492fe17395798c871770fb
+      :url: https://trello.com/c/W2KPcB87/135-maldito-games
+      :name: Maldito Games
+      :desc: La editorial Maldito Games nos ha donado estos dos juegos que por supuesto
+        podrás encontrar en la feria
+      :idList: 5e46ff0647b8ec7ad37837d7
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e492fe17395798c871770fb/df17ffe0120a8478f1f5625795b9349d/IMG_20200219_180030.jpg
+    5e4ad57db687725ffd9b3e14:
+      :id: 5e4ad57db687725ffd9b3e14
+      :url: https://trello.com/c/lvyEVNYq/138-no-game-over-expansi%C3%B3n
+      :name: No game over + expansión
+      :desc: Tenemos la suerte de tener esge juego con su expansión para el megasorteo
+        que se va a celebrar en la feria
+      :idList: 5e46ff0647b8ec7ad37837d7
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e4ad57db687725ffd9b3e14/da18979b04798e178980d014af01e568/IMG_20200219_180113.jpg
+    5e43bfd49a7bec8d8bfe4ca7:
+      :id: 5e43bfd49a7bec8d8bfe4ca7
+      :url: https://trello.com/c/CuiwWSgV/132-dungeon-world
+      :name: Dungeon World
+      :desc: Dungeon World es un juego de rol de aventuras fantásticas que combina
+        la exploración de mazmorras con reglas innovadoras y grandes dosis de acción.
+        Tus amigos y tú exploraréis una tierra llena de peligros y magia, e interpretaréis
+        a aventureros que buscan la fama, el oro y la gloria.
+      :idList: 5e43bfc9eaeb6573a498b2b1
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e43bfd49a7bec8d8bfe4ca7/7c1de6b616c1863816e4a3563cd70d0e/285-dungeon-world-papel.jpg
+    5e43bfe895d2733025ab5de7:
+      :id: 5e43bfe895d2733025ab5de7
+      :url: https://trello.com/c/XGgYzGaD/133-labyrithn-lord-osr
+      :name: Labyrithn Lord (OSR)
+      :desc: Labyrinth Lord es un juego de rol de fantasía que recupera el espíritu
+        de los juegos de la vieja escuela. Aquí encontrarás un mundo lleno de grandes
+        aventuras en una cuidada edición con nuevas e impresionantes ilustraciones
+        y un sistema de reglas ideal para iniciarse en los juegos de rol.
+      :idList: 5e43bfc9eaeb6573a498b2b1
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e43bfe895d2733025ab5de7/609ff10eed1441c7710a663708a3b3d4/labyrinth-lord-papel.jpg

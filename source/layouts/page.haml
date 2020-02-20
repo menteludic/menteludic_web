@@ -1,0 +1,19 @@
+!!!
+%html
+  = partial :'layouts/header'
+  %body
+    .wrapper.row1
+      = partial :'layouts/title'
+
+    .wrapper.row2
+      = partial :'layouts/menu'
+
+      .clear
+    / content
+    .wrapper.row3
+      #container
+        = yield
+        .clear
+    / Footer
+    .wrapper.row2
+      = partial :'layouts/footer'

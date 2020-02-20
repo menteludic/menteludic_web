@@ -1,0 +1,52 @@
+!!!
+%html
+  = partial :'layouts/header'
+  %body
+    .wrapper.row1
+      = partial :'layouts/title'
+
+    .wrapper.row2
+      = partial :'layouts/menu'
+
+    .wrapper.row2
+      = partial :'layouts/headline'
+
+      .clear
+    / content
+    .wrapper.row3
+      #container
+        / ################################################################################################
+        #homepage.clear
+          .two_third.first
+            %article.clear
+              = yield_content(:event)
+            .divider2
+            %article.clear
+              %a{href: '/events/moralzarzal_2019'}
+                %h2
+                  Finaliza con éxito Menteludic 2019
+              %img{alt: '', src: '/images/events/menteludic_moralzarzal_2019.jpg'}/
+              %p
+                Finalizó el evento de Menteludic 2019 en Moralzarzal y lo primero es dar las gracias a todos:
+              %p
+                Al ayuntamiento de Moralzarzal, a las editoriales que asistieron, a los ilustradores, a las cosplayers, a las asociaciones, etc...
+                Y sobre todo a la gente que se acercó a disfrutar, con nosotros, de un rato de ocio y diversión en familia.
+              %p
+                Para todos nosotros ha sido una experiencia muy positiva que esperamos repetir en un futuro próximo.
+              %p
+                %strong Muchísimas gracias a todos!!
+                %strong Esperamos veros pronto de nuevo!!
+              %footer
+
+            .clear
+          .one_third
+            .clear
+              = yield_content(:sidebar)
+            .divider2
+              = partial :'layouts/twitter_panel', locals: { height: 600, theme: 'light' }
+
+        / ################################################################################################
+        .clear
+    / Footer
+    .wrapper.row2
+      = partial :'layouts/footer'
