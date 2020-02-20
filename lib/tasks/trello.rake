@@ -5,8 +5,6 @@ require File.expand_path('../trello/trello', __dir__)
 namespace :trello do
   desc 'Run Trello tasks'
   task :run do |t, args|
-    puts "T: #{ENV['TRELLO_API_KEY']}"
-
     options = {
       apiKey: ENV['TRELLO_API_KEY'],
       token: ENV['TRELLO_TOKEN'],

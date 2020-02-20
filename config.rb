@@ -50,6 +50,15 @@ configure :development do
   activate :sprockets
   # activate :syntax, :line_numbers => true
   activate :directory_indexes
+
+  activate :deploy do |deploy|
+    deploy.build_before = true
+    deploy.deploy_method = :ftp
+    deploy.host = ENV['FTP_HOST']
+    deploy.path = '/menteludic.com'
+    deploy.user = ENV['FTP_USER']
+    deploy.password = ENV['FTP_PASSWORD']
+  end
 end
 
 # Build-specific configuration

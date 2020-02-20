@@ -6,7 +6,7 @@ gem 'middleman-google-analytics', '~> 3.0'
 gem 'middleman-livereload'
 # gem 'middleman-search_engine_sitemap'
 gem 'middleman-sprockets'
-
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw, :x64_mingw]
