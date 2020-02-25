@@ -1,0 +1,29 @@
+---
+layout: page
+---
+#event.three_quarter.first
+  .push50
+    %h1= event_data[:event][:name]
+
+    - event_data[:lists].each do |idList, list_data|
+      %h2.blog-post-title= list_data[:name]
+
+      - event_data[:cards].each do |id, card_data|
+        - if card_data[:idList] == idList
+          %article.clear
+            .one_third.first
+              %figure.imgl.boxholder
+                %img{src: card_data[:cover]}
+            .two_third
+              %h2= card_data[:name]
+              - if card_data[:due]
+                .blog-post-meta
+                  %time{datetime: card_data[:due]}
+                    %h4
+                      %strong
+                        %span.icon-time
+                        = show_date(card_data[:due])
+              = card_data[:desc]
+
+#sidebar_1.sidebar.one_quarter
+  = partial :'events/sidebar', locals: { event_data: event_data }

@@ -57,6 +57,7 @@ module Trello
     def data(card)
       {
         id: card.data['id'],
+        due: card.data['due'],
         url: card.data['url'],
         name: card.data['name'],
         desc: card.data['desc'],

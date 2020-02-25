@@ -18,24 +18,35 @@ page '/*.txt', layout: false
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
+data.events.each do |event_data|
+  proxy "/events/#{event_data[:event][:slug]}.html", '/events.html', locals: { event_data: event_data, title: event_data[:event][:name] }
 
-# proxy(
-#   '/this-page-has-no-template.html',
-#   '/template-file.html',
-#   locals: {
-#     which_fake_page: 'Rendering a fake page with a local variable'
-#   },
-# )
+  # event_data[:lists].each do |id, list_data|
+  #   proxy(
+  #     "/events/#{event_data[:event][:slug]}/#{list_data[:slug]}.html",
+  #     '/events/lists.html',
+  #     locals: { event_data: event_data, list: list_data }
+  #   )
+  # end
+end
 
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+  def day_name(date)
+    ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'][DateTime.parse(date).strftime('%w').to_i]
+  end
+
+  def show_date(date)
+    "#{day_name(date)} #{DateTime.parse(date).strftime('%e, %H:%M')}"
+  end
+
+  def show_hour(date)
+    DateTime.parse(date).strftime('%H:%M')
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

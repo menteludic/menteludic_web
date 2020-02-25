@@ -21,19 +21,85 @@
       - Domingo 15 de 11:00 a 14:30 y de 16:00 a 20:00
     :slug: menteludic-villalba-marzo-2020
   :lists:
+    5e4b0cebf6b63018f0899389:
+      :id: 5e4b0cebf6b63018f0899389
+      :name: Asociaciones
+      :slug: asociaciones
+      :numcards: 1
+    5e4b0cdc1a60cd4aeb409e4b:
+      :id: 5e4b0cdc1a60cd4aeb409e4b
+      :name: Eventos
+      :slug: eventos
+      :numcards: 5
     5e46ff0647b8ec7ad37837d7:
       :id: 5e46ff0647b8ec7ad37837d7
       :name: Juegos Cedidos Por Editoriales
       :slug: juegos-cedidos-por-editoriales
-      :numcards: 2
+      :numcards: 3
     5e43bfc9eaeb6573a498b2b1:
       :id: 5e43bfc9eaeb6573a498b2b1
       :name: Partidas de Rol
       :slug: partidas-de-rol
-      :numcards: 2
+      :numcards: 3
   :cards:
+    5e53dd39f749224b9be4b36a:
+      :id: 5e53dd39f749224b9be4b36a
+      :due: 
+      :url: https://trello.com/c/jzFoHjWc/154-harry-latino-sierra
+      :name: Harry Latino Sierra
+      :desc: HL Sierra es un Club de fans que inició su andadura en Julio de 2014
+        y, desde entonces, realiza actividades temáticas relacionadas con Harry Potter.
+        Si quieres saber más, no dudes en visitar su página web (http://www.hlsierra.es/).
+      :idList: 5e4b0cebf6b63018f0899389
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e53dd39f749224b9be4b36a/c95c23a7c85741fee0712d05aef2eb20/cropped-logo-modificado1.jpg
+    5e53e01acecb83384aa4d414:
+      :id: 5e53e01acecb83384aa4d414
+      :due: '2020-03-13T17:00:00.000Z'
+      :url: https://trello.com/c/AN7zSShq/155-taller-de-micropuffs
+      :name: Taller De Micropuffs
+      :desc: 'La asociación Harry Latino Sierra nos trae este taller para crear pompones
+        que simularán micropuffs. '
+      :idList: 5e4b0cdc1a60cd4aeb409e4b
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e53e01acecb83384aa4d414/12bde1cf24d9401d4263e29b8381216f/TALLER_DE_MICROPUFFS.jpg
+    5e53e57f9f17e9666e35e9a7:
+      :id: 5e53e57f9f17e9666e35e9a7
+      :due: '2020-03-14T11:00:00.000Z'
+      :url: https://trello.com/c/znj3BJ61/156-taller-de-corbatas-de-las-casas
+      :name: Taller De Corbatas De Las Casas
+      :desc: 'La asociación Harry Latino Sierra nos trae este taller para crear corbatas
+        con gomaeva o fieltro. '
+      :idList: 5e4b0cdc1a60cd4aeb409e4b
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e53e57f9f17e9666e35e9a7/185db0c8137abb6c8b35c49c00fd7945/TALLER_CORBATAS_HOGWARTS.jpg
+    5e53e5d94d71ef32bcf90663:
+      :id: 5e53e5d94d71ef32bcf90663
+      :due: '2020-03-14T16:00:00.000Z'
+      :url: https://trello.com/c/OC88wAoj/157-taller-de-varitas
+      :name: Taller De Varitas
+      :desc: La asociación Harry Latino Sierra nos trae este taller para crear varitas
+        de mago a partir de palos de madera.
+      :idList: 5e4b0cdc1a60cd4aeb409e4b
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e53e5d94d71ef32bcf90663/1a0dd874fd3306e25d15ad41c924f941/TALLER_DE_VARITAS.jpg
+    5e53e7186997fb333e373d0f:
+      :id: 5e53e7186997fb333e373d0f
+      :due: '2020-03-15T11:00:00.000Z'
+      :url: https://trello.com/c/HKCv7oSY/158-taller-de-portavaritas
+      :name: Taller De Portavaritas
+      :desc: 'La asociación Harry Latino Sierra nos trae este taller para crear un
+        portavaritas con gomaeva o fieltro. '
+      :idList: 5e4b0cdc1a60cd4aeb409e4b
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e53e7186997fb333e373d0f/c32a6b7578fc0970e846274869dedf11/TALLER_DE_PORTAVARITAS.jpg
+    5e53e9f4d30abb1c1f5bd419:
+      :id: 5e53e9f4d30abb1c1f5bd419
+      :due: '2020-03-15T15:00:00.000Z'
+      :url: https://trello.com/c/re6SUUrr/159-taller-de-corbatas-de-las-casas
+      :name: Taller De Corbatas De Las Casas
+      :desc: 'La asociación Harry Latino Sierra nos trae este taller para crear corbatas
+        con gomaeva o fieltro. '
+      :idList: 5e4b0cdc1a60cd4aeb409e4b
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e53e9f4d30abb1c1f5bd419/2da057a912bb4afab53eb4d81fcd287b/TALLER_CORBATAS_HOGWARTS.jpg
     5e492fe17395798c871770fb:
       :id: 5e492fe17395798c871770fb
+      :due: 
       :url: https://trello.com/c/W2KPcB87/135-maldito-games
       :name: Maldito Games
       :desc: La editorial Maldito Games nos ha donado estos dos juegos que por supuesto
@@ -42,14 +108,25 @@
       :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e492fe17395798c871770fb/df17ffe0120a8478f1f5625795b9349d/IMG_20200219_180030.jpg
     5e4ad57db687725ffd9b3e14:
       :id: 5e4ad57db687725ffd9b3e14
+      :due: 
       :url: https://trello.com/c/lvyEVNYq/138-no-game-over-expansi%C3%B3n
       :name: No game over + expansión
       :desc: Tenemos la suerte de tener esge juego con su expansión para el megasorteo
         que se va a celebrar en la feria
       :idList: 5e46ff0647b8ec7ad37837d7
       :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e4ad57db687725ffd9b3e14/da18979b04798e178980d014af01e568/IMG_20200219_180113.jpg
+    5e528d38a482ca1503703060:
+      :id: 5e528d38a482ca1503703060
+      :due: 
+      :url: https://trello.com/c/RJzRZQ58/142-games4gamers
+      :name: Games4Gamers
+      :desc: La editorial Games 4 Gamers nos ha donado estos tres juegos. Si quieres
+        jugarlos te esperamos en la feria el fin de semana del 13 de marzo
+      :idList: 5e46ff0647b8ec7ad37837d7
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e528d38a482ca1503703060/a63b86882830b1c48461f53f9f5c9d93/IMG_20200221_213425.jpg
     5e43bfd49a7bec8d8bfe4ca7:
       :id: 5e43bfd49a7bec8d8bfe4ca7
+      :due: '2020-03-14T10:00:00.000Z'
       :url: https://trello.com/c/CuiwWSgV/132-dungeon-world
       :name: Dungeon World
       :desc: Dungeon World es un juego de rol de aventuras fantásticas que combina
@@ -60,6 +137,7 @@
       :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e43bfd49a7bec8d8bfe4ca7/7c1de6b616c1863816e4a3563cd70d0e/285-dungeon-world-papel.jpg
     5e43bfe895d2733025ab5de7:
       :id: 5e43bfe895d2733025ab5de7
+      :due: '2020-03-15T10:00:00.000Z'
       :url: https://trello.com/c/XGgYzGaD/133-labyrithn-lord-osr
       :name: Labyrithn Lord (OSR)
       :desc: Labyrinth Lord es un juego de rol de fantasía que recupera el espíritu
@@ -68,3 +146,14 @@
         y un sistema de reglas ideal para iniciarse en los juegos de rol.
       :idList: 5e43bfc9eaeb6573a498b2b1
       :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e43bfe895d2733025ab5de7/609ff10eed1441c7710a663708a3b3d4/labyrinth-lord-papel.jpg
+    5e54ead7b984900c7877dc16:
+      :id: 5e54ead7b984900c7877dc16
+      :due: '2020-03-14T10:00:00.000Z'
+      :url: https://trello.com/c/AtL7zYfd/163-gremio-de-aventureros-infantil
+      :name: Gremio de aventureros (infantil)
+      :desc: |-
+        FORMAS PARTE DEL GREMIO DE AVENTUREROS DE SHADIZAR. Tu misión es explorar mazmorras desconocidas, acabar con monstruos, defender la ciudad de oscuras amenazas y devolver objetos de los más raros a princesas mimadas. ¡ÚNETE A ESTA DIVERTIDA AVENTURA!
+
+        Sistema casero creado por Cristina Pantoja para partidas rápidas y divertidas con niños.
+      :idList: 5e43bfc9eaeb6573a498b2b1
+      :cover: https://trello-attachments.s3.amazonaws.com/5e1ef752a3d77f7ef3956f05/5e54ead7b984900c7877dc16/442adedf68dda06053aa74a52fb0bf20/Gremio_de_aventureros.jpg

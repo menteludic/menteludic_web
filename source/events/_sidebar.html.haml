@@ -1,0 +1,25 @@
+- mapDesc = event_data[:event][:mapDesc]
+- datesDesc = event_data[:event][:datesDesc]
+%aside
+  %section
+    %h2 Dónde
+    = partial(:map, locals: { url: event_data[:event][:mapUrl] })
+    %address
+      %b= mapDesc[:title]
+      %br/
+      = mapDesc[:description]
+      %br/
+      = mapDesc[:extra]
+      %br/
+  %section
+    %h2 Cuándo
+    %ul.list.underline.arrow
+      - datesDesc[:items].each do |item|
+        %li= item
+  %section
+    %h2 Quienes
+    %ul.list.underline.tick
+      - event_data[:lists].each do |idList, list_data|
+        %li= "#{list_data[:numcards]} #{list_data[:name]}"
+
+
